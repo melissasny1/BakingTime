@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recipe_detail_ingredients_steps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ingredient_textview_title"
+        style="@style/MasterFragmentTitleStyle"
+        android:text="@string/ingredient_rv_title_text"
+        android:textAlignment="gravity" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_ingredients_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include layout="@layout/ingredients_rv" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/recipe_steps_textview_title"
+        style="@style/MasterFragmentTitleStyle"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/recipe_step_rv_title_text"
+        android:textAlignment="gravity" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_recipe_steps_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include layout="@layout/recipe_steps_rv" />
+    </ScrollView>
+
+</LinearLayout>
+

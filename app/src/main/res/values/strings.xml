@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BakingTime</string>
+    <string name="detail_activity_label">Recipe Detail</string>
+    <string name="recipe_step_activity_label">Recipe Step Detail</string>
+    <string name="ingredient_rv_title_text">Ingredients</string>
+    <string name="recipe_step_rv_title_text">Steps</string>
+    <string name="appwidget_text">BAKE</string>
+    <string name="widget_empty_view_text">Click to select recipe and display ingredients</string>
+    <string name="preference_file_key">com.example.android.bakingtime.PREFERENCE_FILE_KEY</string>
+    <string name="preference_recipe_name_key">PREFERENCE_RECIPE_NAME_KEY</string>
+    <string name="preference_ingredients_key">PREFERENCE_INGREDIENTS_KEY</string>
+    <string name="prev_step_nav_description">Navigate to the previous recipe step</string>
+    <string name="next_step_nav_description">Navigate to the next recipe step</string>
+    <string name="exoplayer_rewind_content_desc">Rewind button</string>
+    <string name="exoplayer_play_content_desc">Play button</string>
+    <string name="exoplayer_pause_content_desc">Pause button</string>
+    <string name="recipe_image_content_desc">Recipe photo</string>
+    <string name="recipe_step_image_content_desc">Recipe step photo</string>
+    <string name="recipe_step_play_arrow_content_desc">Select for recipe step detail</string>
+    <string name="error_msg_text_no_internet">! No internet connection</string>
+    <string name="info_msg_text_no_recipes">! No recipes to display</string>
+</resources>
